@@ -16,6 +16,11 @@ spring:
       properties:
         spring.json.trusted.packages: "*"
         spring.json.value.default.type: com.example.kafkademo.model.Message
+      enable-auto-commit: false
+
+    listener:
+          ack-mode: manual
+
 
 logging:
   level:
