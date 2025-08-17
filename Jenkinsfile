@@ -18,7 +18,7 @@ pipeline {
                 cleanWs()
                 git branch: 'main',
                     credentialsId: 'github-fine-token',
-                    url: 'https://github.com/your-org/backend-app.git'
+                    url: 'https://github.com/kotopyos/back-message-app-demo.git'
 
                 echo "Building branch: ${env.BRANCH_NAME}"
             }
