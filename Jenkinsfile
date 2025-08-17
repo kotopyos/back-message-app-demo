@@ -7,9 +7,9 @@ pipeline {
     }
 
     environment {
-        APP_NAME = 'java-backend'
+        APP_NAME = 'kafka-demo'
         DOCKER_IMAGE = "${APP_NAME}"
-        DOCKER_TAG = "${BUILD_NUMBER}"
+        DOCKER_TAG = "2:${BUILD_NUMBER}"
     }
 
     stages {
