@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        APP_NAME = 'kafka-demo'
+        APP_NAME = 'katapyos/kafka-demo'
         DOCKER_IMAGE = "${APP_NAME}"
         DOCKER_TAG = "2.0.${BUILD_NUMBER}"
     }
